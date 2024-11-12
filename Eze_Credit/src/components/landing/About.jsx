@@ -1,6 +1,11 @@
 import React , {useState} from 'react';
 import { Footer } from '../common/Footer';
 import { Testinomial } from '../common/Testinomial';
+import credit from '../asset/Rectangle.png';
+import credit2 from '../asset/Rectangle1.png';
+import credit3 from '../asset/Rectangle4.png';
+import credit4 from '../asset/Rectangle2.png';
+
 
 export function About()  {
   return (
@@ -32,9 +37,9 @@ export function About()  {
           </div>
           <div className="mt-2 bg-blue-100 text-gray-700 p-3 rounded">
             <img 
-              src="https://via.placeholder.com/50" 
+              src={credit}
               alt="Credit Report" 
-              className="inline-block mr-2"
+              className="inline-block mr-2 w-[50px] h-[50px]"
             />
             Establish plan to identify roadblocks and inaccuracies impacting your score
           </div>
@@ -48,9 +53,9 @@ export function About()  {
           </div>
           <div className="mt-2 bg-blue-100 text-gray-700 p-3 rounded">
             <img 
-              src="https://via.placeholder.com/50" 
+              src={credit2}
               alt="Dispute Icon" 
-              className="inline-block mr-2"
+              className="inline-block mr-2 w-[50px] h-[50px]"
             />
             Challenge and Dispute negative items until they are removed
           </div>
@@ -62,12 +67,18 @@ export function About()  {
             <div className="bg-white text-green-500 font-bold rounded-full w-8 h-8 flex items-center justify-center mr-3">03</div>
             <h3 className="font-semibold">Credit Recovery</h3>
           </div>
-          <div className="mt-2 bg-blue-100 text-gray-700 p-3 rounded">
+          <div className="mt-2 ml-[5px] bg-blue-100 text-gray-700 p-3 rounded relative">
             <img 
-              src="https://via.placeholder.com/50" 
+              src={credit4}
               alt="Recovery Icon" 
-              className="inline-block mr-2"
+              className="inline-block mr-2 w-[40px] h-[45px]"
             />
+            <img 
+              src={credit3}
+              alt="Recovery Icon" 
+              className="inline-block mr-2 w-[60px] h-[60px] absolute left-[3px] top-[0px]"
+            />
+
             Take action to boost your credit score to reach your desired score range
           </div>
         </div>

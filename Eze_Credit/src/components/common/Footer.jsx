@@ -1,16 +1,16 @@
-
+import credit0 from '../asset/logo.png';
 export function Footer() {
     return (
         <div>
-            <div className="bg-blue-800 text-white py-4 border-y ">
+            <div className="bg-blue-800 text-white py-4 border-y  mb-[0px]">
             <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
                 
                 {/* Logo Section */}
                 <div className="flex items-center mb-4 md:mb-0">
                     <img 
-                        src="path-to-your-logo.png" 
+                        src={credit0}
                         alt="Eze Credit Repair Logo" 
-                        className="h-12"
+                        className="h-[60px] ml-[20px] "
                     />
                 </div>
 
@@ -109,7 +109,7 @@ export function Footer() {
             </div>
 
             {/* Footer bottom section */}
-            <div className="bg-green-500 text-center text-white py-2 mt-1">
+            <div className="bg-green-500 text-center text-white py-2 mb-[-5px]">
                 All 2024 Copyrights Reserved by EzeCreditRepair.com
             </div>
         </footer>

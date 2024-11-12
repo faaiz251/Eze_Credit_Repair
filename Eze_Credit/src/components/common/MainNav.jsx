@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+
 export function MainNav() {
   // Helper function for active class styling
   const getLinkClass = ({ isActive }) =>
@@ -31,7 +32,7 @@ export function MainNav() {
         <NavLink to="/how-it-works" className={getLinkClass}>
           How It Works
         </NavLink>
-        <NavLink to="/faq" className={getLinkClass}>
+        <NavLink to="/f&q" className={getLinkClass}>
           FAQ
         </NavLink>
         <NavLink to="/contact" className={getLinkClass}>

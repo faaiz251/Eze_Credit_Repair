@@ -1,6 +1,15 @@
 import React, {useState} from "react"
 import { Testinomial } from "../common/Testinomial";
 import { Footer } from "../common/Footer";
+import credit9 from '../asset/improvecs3.png';
+import credit0 from '../asset/logo.png';
+import credit8 from '../asset/Rectangle0.png';
+import credit10 from '../asset/Rectangle10.png';
+import credit11 from '../asset/Rectangle11.png';
+import credit from '../asset/Rectangle.png';
+import credit2 from '../asset/Rectangle1.png';
+import credit3 from '../asset/Rectangle4.png';
+import credit4 from '../asset/Rectangle2.png';
 
 export function Home() {
     return (
@@ -16,16 +25,26 @@ export function Home() {
                 <p className="text-zinc-600 mb-5 font-semibold">credit for better rates,loans and peace of mind.</p>
                 <button className="bg-blue-600 text-white px-4 py-1 rounded-md">SIGN UP NOW</button>
             </div>
-            <div className="bg-blue-400 w-1/2">
-                {/* left this div for  the image of the woman   */}
+            <div className=" w-[350px] z-10 right-[300px] absolute p-[20px]">
+            <img 
+                        src={credit11}
+                        alt="Eze Credit Repair Logo" 
+                        className="object-cover"
+                    />
             </div>
         </div>
         {/* get started section  */}
-        <div className="bg-blue-800 h-[430px] relative  w-full">
-            <div className="bg-slate-500 w-1/2 h-[350px]  rounded-md absolute top-[100px] border-2 border-white left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+        <div className="bg-blue-800 h-[500px] relative  w-full">
+            <div className="bg-slate-500 w-1/2 h-[340px]  rounded-md absolute top-[100px] border-2 border-white left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+            <img 
+                        src={credit10}
+                        alt="Eze Credit Repair Logo" 
+                        className="object-cover"
+                    /></div>
             <div className="absolute text-center left-1/2 transform -translate-x-1/2  bottom-5">
-            <p className="text-white w-[900px] text-lg mb-3">Achieving a better credit score is key to unlocking financial freedom and accessing life's biggest opportunities.With our EzeCredit Repair Program, our services will change your path to a brighter and improving credit profile,so you can secure better rates, loans, and financial peace of mind.</p>
-            <button className="bg-red-600 font-bold text-xl text-white px-4 py-1 rounded-md">Get Started</button>
+            
+            <p className="text-white w-[900px] text-lg mb-[20px]">Achieving a better credit score is key to unlocking financial freedom and accessing life's biggest opportunities.With our EzeCredit Repair Program, our services will change your path to a brighter and improving credit profile,so you can secure better rates, loans, and financial peace of mind.</p>
+            <button className="bg-red-600 font-bold text-xl text-white px-4 py-1 rounded-md ">Get Started</button>
             </div>
         </div>
         {/* About us section */}
@@ -67,9 +86,13 @@ export function Home() {
       </div>
 
       {/* Image Placeholder */}
-      <div className="flex-1 flex justify-center items-center mt-8 md:mt-0 md:pl-6">
-        <div className="w-48 h-80 bg-gray-200 flex justify-center items-center text-gray-500 text-sm italic rounded-lg">
-          Image Placeholder
+      <div className="flex-1 flex justify-center items-center mt-[50px] md:pl-6">
+        <div className="w-[450px] h-80 flex justify-center items-center text-sm italic rounded-lg">
+        <img 
+              src={credit9}
+              alt="Recovery Icon" 
+              className="inline-block mr-2 object-contained"
+            />
         </div>
       </div>
     </div>
@@ -96,8 +119,12 @@ export function Home() {
           {/* Services Header */}
           <div className="flex items-center space-x-3 mb-4"> {/* Flex container with spacing */}
   {/* Placeholder for Logo Image */}
-  <div className="w-24 h-10 bg-gray-200 flex items-center justify-center rounded">
-    <span className="text-gray-500 italic">Logo</span>
+  <div className="w-24 h-10 flex items-center justify-center rounded">
+  <img 
+                        src={credit0}
+                        alt="Eze Credit Repair Logo" 
+                        className="h-[60px] ml-[20px] "
+                    />
   </div>
   
   {/* Services Benefits Heading */}
@@ -129,12 +156,16 @@ export function Home() {
         {/* Right Side - Basketball Image and Text */}
         <div className="flex flex-col items-center justify-center mt-6 md:mt-0">
           {/* Basketball Image Placeholder */}
-          <div className="w-48 h-48 bg-gray-200 rounded-full flex items-center justify-center mb-4">
-            <span className="text-gray-500 italic">Basketball Image</span>
+          <div className="w-[300px] h-[200px]  flex items-center justify-center mb-4">
+          <img 
+                        src={credit8}
+                        alt="Eze Credit Repair Logo" 
+                        className="object-cover ml-[20px] "
+                    />
           </div>
           
           {/* Text beside the Basketball Image */}
-          <p className="text-sm text-center md:text-left">
+          <p className="text-sm text-center md:text-left mt-[70px]">
             Don’t Let Your Credit Block Opportunities <br />
             Start Building a Better Score Today!
           </p>
@@ -316,10 +347,10 @@ function FeQ3  ()  {
             <h3 className="font-semibold">Credit Report Analysis</h3>
           </div>
           <div className="mt-2 bg-blue-100 text-gray-700 p-3 rounded">
-            <img 
-              src="https://via.placeholder.com/50" 
+          <img 
+              src={credit}
               alt="Credit Report" 
-              className="inline-block mr-2"
+              className="inline-block mr-2 w-[50px] h-[50px]"
             />
             Establish plan to identify roadblocks and inaccuracies impacting your score
           </div>
@@ -332,10 +363,10 @@ function FeQ3  ()  {
             <h3 className="font-semibold">Dispute & Escalations</h3>
           </div>
           <div className="mt-2 bg-blue-100 text-gray-700 p-3 rounded">
-            <img 
-              src="https://via.placeholder.com/50" 
+          <img 
+              src={credit2}
               alt="Dispute Icon" 
-              className="inline-block mr-2"
+              className="inline-block mr-2 w-[50px] h-[50px]"
             />
             Challenge and Dispute negative items until they are removed
           </div>
@@ -347,12 +378,18 @@ function FeQ3  ()  {
             <div className="bg-white text-green-500 font-bold rounded-full w-8 h-8 flex items-center justify-center mr-3">03</div>
             <h3 className="font-semibold">Credit Recovery</h3>
           </div>
-          <div className="mt-2 bg-blue-100 text-gray-700 p-3 rounded">
+          <div className="mt-2 ml-[3px] bg-blue-100 text-gray-700 p-3 rounded relative">
             <img 
-              src="https://via.placeholder.com/50" 
+              src={credit4}
               alt="Recovery Icon" 
-              className="inline-block mr-2"
+              className="inline-block mr-2 w-[38px] h-[42px]"
             />
+            <img 
+              src={credit3}
+              alt="Recovery Icon" 
+              className="inline-block mr-2 w-[55px] h-[58px] absolute left-[3px] top-[1px]"
+            />
+
             Take action to boost your credit score to reach your desired score range
           </div>
         </div>
