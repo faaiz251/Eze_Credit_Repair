@@ -1,8 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
-function Navbar() {
+export  function Navbar() {
   return (
-    
+    <>
     <nav className="flex justify-between  items-center p-4 bg-blue-900 text-white">
       <div className="flex font-times-new-roman"> 
         <h1>Start your journey to a better credit score today,</h1>
@@ -13,19 +14,22 @@ function Navbar() {
           <h1>0000-000-000</h1>
         </div>
         <div className="flex justify-end gap-1">
-          {/* <Link to="/signin" className="hover:underline">LOGIN</Link>
+
+          <a href="/signin" className="hover:underline">LOGIN</a>
           <span>|</span>
-          <Link to="/signup" className="hover:underline">REGISTER</Link> */}
-          <a href="#login" className="hover:underline">LOGIN</a>
-          <span>|</span>
-          <a href="#register" className="hover:underline">REGISTER</a>
+          <a href="/signup" className="hover:underline">REGISTER</a>
+          {/* <Link  */}
+          {/* // to="/signin" 
+          // className="hover:underline">LOGIN</Link>
+          // <span>|</span>
+          // <Link to="/signup" className="hover:underline">REGISTER</Link> */}
         </div>
       </div>
     </nav>
 
     
 
+    </>
   )
 }
 
-export default Navbar
