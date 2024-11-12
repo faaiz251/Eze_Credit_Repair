@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Home } from './components/landing/Home';
 import { Signup } from './components/landing/Signup';
 import { About } from './components/landing/About';
-<<<<<<< HEAD
+
 import {Footer}  from './components/common/Footer';
 import {Contact} from './components/landing/Contact';
 import {Signin} from './components/landing/Signin';
