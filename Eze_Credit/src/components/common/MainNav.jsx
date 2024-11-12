@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 export function MainNav() {
   return (
-    <nav className="flex items-center shadow-md border-b-4 border-zinc-500 space-x-6 text-sm font-semibold text-gray-700">
+    <nav className="flex items-center shadow-md border-b-4 border-zinc-500/50 space-x-6 text-sm font-semibold text-gray-700">
       <div className="flex items-center h-16">
         <NavLink to="/" className="text-2xl font-bold text-blue-700">
           Eze Credit Repair
@@ -13,8 +13,9 @@ export function MainNav() {
         to="/learning-center" 
         className={({ isActive }) => 
           isActive 
-            ? "text-blue-700 border-b-4 border-blue-700 pb-1" 
+            ? "text-blue-700 underline decoration-4 underline-offset-[26px]"
             : "hover:text-blue-700"
+            
         }
       >
         Learning Center
@@ -23,7 +24,7 @@ export function MainNav() {
         to="/faq" 
         className={({ isActive }) => 
           isActive 
-            ? "text-blue-700 border-b-4 border-blue-700 pb-1" 
+            ? "text-blue-700 underline decoration-4 underline-offset-[26px]"
             : "hover:text-blue-700"
         }
       >
@@ -33,7 +34,7 @@ export function MainNav() {
         to="/how-it-works" 
         className={({ isActive }) => 
           isActive 
-            ? "text-blue-700 border-b-4 border-blue-700 pb-1" 
+        ? "text-blue-700 underline decoration-4 underline-offset-[26px]" 
             : "hover:text-blue-700"
         }
       >
@@ -43,7 +44,7 @@ export function MainNav() {
         to="/" 
         className={({ isActive }) => 
           isActive 
-            ? "text-blue-700 border-b-4 border-blue-700 pb-1" 
+            ? "text-blue-700 underline decoration-4 underline-offset-[26px]"
             : "hover:text-blue-700"
         }
       >
@@ -53,7 +54,7 @@ export function MainNav() {
         to="/about" 
         className={({ isActive }) => 
           isActive 
-            ? "text-blue-700 border-b-4 border-blue-700 pb-1" 
+            ? "text-blue-700 underline decoration-4 underline-offset-[26px]"
             : "hover:text-blue-700"
         }
       >
@@ -63,7 +64,7 @@ export function MainNav() {
         to="/services" 
         className={({ isActive }) => 
           isActive 
-            ? "text-blue-700 border-b-4 border-blue-700 pb-1" 
+            ? "text-blue-700 underline decoration-4 underline-offset-[26px]"
             : "hover:text-blue-700"
         }
       >
@@ -73,7 +74,7 @@ export function MainNav() {
         to="/pricing" 
         className={({ isActive }) => 
           isActive 
-            ? "text-blue-700 border-b-4 border-blue-700 pb-1" 
+            ? "text-blue-700 underline decoration-4 underline-offset-[26px]"
             : "hover:text-blue-700"
         }
       >
@@ -83,7 +84,7 @@ export function MainNav() {
         to="/contact" 
         className={({ isActive }) => 
           isActive 
-            ? "text-blue-700 border-b-4 border-blue-700 pb-1" 
+            ? "text-blue-700 underline decoration-4 underline-offset-[26px]"
             : "hover:text-blue-700"
         }
       >

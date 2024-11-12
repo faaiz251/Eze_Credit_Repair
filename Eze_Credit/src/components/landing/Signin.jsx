@@ -1,17 +1,8 @@
-<<<<<<< HEAD
+import React from 'react';
 export function Signin() {
     return (
         <div>
-            kdnfk
+            k
         </div>
     )
 }
-=======
-import React from 'react'
->>>>>>> 29468e8 (made testimonial card)
-
-
-<<<<<<< HEAD
-=======
- 
->>>>>>> 29468e8 (made testimonial card)

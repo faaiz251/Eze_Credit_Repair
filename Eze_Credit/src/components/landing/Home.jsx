@@ -1,15 +1,10 @@
-
+import React from "react"
 export function Home() {
     return (
-        <div>
-
-<<<<<<< HEAD
-            {/* <Navbar /> */}
-
+                 
+        <div></div>
             
-=======
->>>>>>> 29468e8 (made testimonial card)
-        </div>
+        
         
     )
 }
