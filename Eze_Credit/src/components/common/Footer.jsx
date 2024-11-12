@@ -2,7 +2,7 @@
 export function Footer() {
     return (
         <div>
-            <div className="bg-blue-800 text-white py-4 border-y">
+            <div className="bg-blue-800 text-white py-4 border-y ">
             <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
                 
                 {/* Logo Section */}

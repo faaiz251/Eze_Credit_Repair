@@ -17,6 +17,13 @@ export function FeQ  ()  {
   };
   return (
   <div>
+    <div class="bg-blue-900 text-white p-2 flex items-center h-[80px] mt-3">
+  <div class="flex justify-start max-w-screen-lg ml-10">
+    <span class="font-semibold ml-10">Home</span>
+    <span class="mx-1">|</span>
+    <span class="font-semibold">Frequently Asked Questions</span>
+  </div>
+</div>
     <div className="max-w-4xl ml-[100px] p-6">
       <h1 className="text-3xl font-bold mb-4 text-blue-700">Frequently Asked Questions</h1>
       <div className="flex">
