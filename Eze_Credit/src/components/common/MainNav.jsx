@@ -21,7 +21,7 @@ export function MainNav() {
         Learning Center
       </NavLink>
       <NavLink 
-        to="/faq" 
+        to="/f&q" 
         className={({ isActive }) => 
           isActive 
             ? "text-blue-700 underline decoration-4 underline-offset-[26px]"

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Footer } from '../common/Footer';
 
 export function FeQ  ()  {
   const [selectedQuestion, setSelectedQuestion] = useState('Can any credit be repaired?');
@@ -14,9 +15,9 @@ export function FeQ  ()  {
   const handleQuestionClick = (question) => {
     setSelectedQuestion(question);
   };
-
   return (
-    <div className="max-w-4xl mx-auto p-6">
+  <div>
+    <div className="max-w-4xl ml-[100px] p-6">
       <h1 className="text-3xl font-bold mb-4 text-blue-700">Frequently Asked Questions</h1>
       <div className="flex">
         <div className="w-1/3 border-4 mt-3 bg-gray-100 rounded-2xl border-white">
@@ -34,32 +35,31 @@ export function FeQ  ()  {
           <p>{questions.find((q) => q.question === selectedQuestion)?.answer}</p>
         </div>
       </div>
+      <div className="w-[1050px] min-h-[400px] mt-[100px] flex items-center justify-between p-6 bg-gray-100">
+      {/* Left Side Text */}
+      <div className="max-w-md">
+        <h1 className="text-3xl font-bold mb-4">Welcome to Our Platform</h1>
+        <h2 className='text-2xl'> Are You Ready to Take action?</h2>
+        <h2 className='text-2xl'>We Are Ready to Help</h2>
+        
+        
+        <button className="mt-5 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Sign Up Now</button>
+      </div>
+      
+      {/* Right Side Image */}
+      <div className="w-1/2 max-w-xs">
+        <img 
+        src=''
+          alt="Placeholder" 
+          className="w-full h-auto rounded"
+        />
+      </div>
     </div>
+   
+    </div>
+    <Footer></Footer>
+    </div>
+    
   );
 };
 
-function lowerdiv1() {
-      return (
-        <div className="w-full min-h-[400px] flex items-center justify-between p-6 bg-gray-100">
-          {/* Left Side Text */}
-          <div className="max-w-md">
-            <h1 className="text-3xl font-bold mb-4">Welcome to Our Platform</h1>
-            <p className="mb-6">
-              We provide excellent services to help you achieve your financial goals. Sign up now to learn more and take control of your credit future.
-            </p>
-            <button className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Sign Up Now</button>
-          </div>
-          
-          {/* Right Side Image */}
-          <div className="w-1/2 max-w-xs">
-            <img 
-              src="https://via.placeholder.com/300" 
-              alt="Placeholder" 
-              className="w-full h-auto rounded"
-            />
-          </div>
-        </div>
-      )
-     
-    
-}
