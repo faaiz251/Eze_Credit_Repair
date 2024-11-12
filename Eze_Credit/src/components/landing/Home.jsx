@@ -10,7 +10,11 @@ import credit from '../asset/Rectangle.png';
 import credit2 from '../asset/Rectangle1.png';
 import credit3 from '../asset/Rectangle4.png';
 import credit4 from '../asset/Rectangle2.png';
-
+import hands from '../asset/hands.png';
+import mobile from '../asset/mobile.png';
+import wemen from '../asset/Rectangle 20.png';
+import rect3 from '../asset/Rect3.png';
+import chingchong from '../asset/chingchong.png';
 export function Home() {
     return (
         // div of the woman 
@@ -199,13 +203,13 @@ export function Home() {
             <h2 className="text-blue-700 text-xl font-bold">Credit Repair: What It Is, How It Works, Related...</h2>
 
             {/* Credit Repair Card 1 */}
-            <div className="relative bg-white rounded-lg shadow-md overflow-hidden">
+            <div className=" relative rounded-lg shadow-md overflow-hidden">
               <img 
-                src="https://via.placeholder.com/600x300" 
+                src={hands} 
                 alt="Credit Repair 1"
                 className="w-full h-48 object-cover"
               />
-              <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-4">
+              <div className="absolute inset-0 flex flex-col justify-end p-4">
                 <span className="absolute top-2 left-2 bg-green-500 text-white px-2 py-1 rounded-sm border-2 border-white text-xs w-fit">August 29, 2024</span>
               </div>
             </div>
@@ -214,11 +218,11 @@ export function Home() {
             <h2 className="text-blue-700 text-xl font-bold">Credit Repair: How Credit Repair Works</h2>
             <div className="relative bg-white rounded-lg shadow-md overflow-hidden">
               <img 
-                src="https://via.placeholder.com/600x300" 
+                src={mobile} 
                 alt="Credit Repair 2"
                 className="w-full h-48 object-cover"
               />
-              <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-4">
+              <div className="absolute inset-0 flex flex-col justify-end p-4">
                 <span className="absolute top-2 left-2 bg-green-500 text-white px-2 py-1 rounded-sm border-2 border-white text-xs w-fit">August 29, 2024</span>
               </div>
             </div>
@@ -231,7 +235,7 @@ export function Home() {
             {/* Article 1 */}
             <div className="flex items-start space-x-4 border-b border-gray-300 pb-4">
               <img 
-                src="https://via.placeholder.com/100x100" 
+                src={wemen} 
                 alt="Common Things"
                 className="w-20 h-20 object-cover rounded-md"
               />
@@ -246,7 +250,7 @@ export function Home() {
             {/* Article 2 */}
             <div className="flex items-start space-x-4 border-b border-gray-300 pb-4">
               <img 
-                src="https://via.placeholder.com/100x100" 
+                src={rect3} 
                 alt="Average Outstanding Balance"
                 className="w-20 h-20 object-cover rounded-md"
               />
@@ -261,7 +265,7 @@ export function Home() {
             {/* Article 3 */}
             <div className="flex items-start space-x-4 pb-4">
               <img 
-                src="https://via.placeholder.com/100x100" 
+                src={chingchong} 
                 alt="What is a Secured Credit Card?"
                 className="w-20 h-20 object-cover rounded-md"
               />
