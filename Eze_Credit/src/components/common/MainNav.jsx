@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import logo from "../asset/672-6724074_transparent-tm-logo-png-logo-trademark-symbol-png.png"
 
 
 export function MainNav() {
@@ -13,7 +14,7 @@ export function MainNav() {
     <nav className="flex justify-around items-center shadow-md border-b-[6px] border-zinc-500/50 text-sm font-semibold text-gray-700">
       <div className="flex p-5 items-center h-16">
         <NavLink to="/" className="text-2xl font-bold text-blue-700">
-          Eze Credit Repair
+          <img src={logo} alt="Eze Credit Repair Logo" className="h-[60px] " />
         </NavLink>
       </div>
       <div className="flex space-x-3">
