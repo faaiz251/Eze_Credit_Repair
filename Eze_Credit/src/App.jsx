@@ -8,12 +8,13 @@ import {Contact} from './components/landing/Contact';
 import {Signin} from './components/landing/Signin';
 import { MainNav } from './components/common/MainNav';
 import {FeQ} from './components/landing/F&Q';
-=======
 
 import {Footer}  from './components/common/Footer';
 import {Contact} from './components/landing/Contact';
 import { Testinomial } from './components/common/Testinomial';
->>>>>>> 29468e8 (made testimonial card)
+
+import {Navbar} from './components/common/Navbar';
+
 
 
 function App() {
@@ -21,7 +22,10 @@ function App() {
     <div>      
       
       <Router>
-        <Testinomial />
+        
+        <Navbar/>
+        <MainNav />
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/signup" element={<Signup />} />

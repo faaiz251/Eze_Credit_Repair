@@ -20,7 +20,7 @@ export function MainNav() {
         Learning Center
       </NavLink>
       <NavLink 
-        to="/faq" 
+        to="/f&q" 
         className={({ isActive }) => 
           isActive 
             ? "text-blue-700 border-b-4 border-blue-700 pb-1" 

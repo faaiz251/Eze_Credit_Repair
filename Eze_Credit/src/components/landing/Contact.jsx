@@ -2,13 +2,13 @@ import React from 'react';
 
 export function Contact ()  {
   return (
-<<<<<<< HEAD
+    <div>
 <div className="mt-[10px] flex justify-center px-4 py-6 bg-blue-700 rounded-2xl border-y-8 border-x-8 ml-[100px] w-[950px] h-[520px]">
       <div className="min-w-lg w-[500px] h-[490px] bg-blue-800 text-white p-6 rounded-lg mt-[-15px]">
         <h2 className="mt-1 text-sm font-bold">We are here to help you</h2>
         <p className="mt-1 mb-5">
           We specialize in helping individuals and families regain control of their financial by repairing and improving their credit scores.
-=======
+</p>
     <div className="flex flex-col md:flex-row bg-blue-800 text-white p-8 rounded-sm">
         <div className="bg-blue-900 text-white py-2 px-4">
       <div className="max-w-screen-lg mx-auto flex justify-start">
@@ -22,7 +22,7 @@ export function Contact ()  {
         <p className="mt-4 mb-8">
           We specialize in helping individuals and families regain control of their financial by
           repairing and improving their credit scores.
->>>>>>> 29468e8 (made testimonial card)
+
         </p>
         <form className="grid gap-4">
           <div className="grid grid-cols-2 gap-4">
