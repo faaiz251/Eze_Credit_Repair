@@ -1,15 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Home } from './components/landing/Home';
 import { Signup } from './components/landing/Signup';
-import {Signin} from './components/landing/Signin';
 import { About } from './components/landing/About';
-<<<<<<< HEAD
 import {Footer}  from './components/common/Footer';
 import {Contact} from './components/landing/Contact';
-=======
 import {Signin} from './components/landing/Signin';
 import { MainNav } from './components/common/MainNav';
->>>>>>> 4d5b6b8 (made mainnav)
+import {FeQ} from './components/landing/F&Q';
+
 
 function App() {
   return (
@@ -24,6 +22,7 @@ function App() {
           <Route path="/about" element={<About/>} />
           <Route path="/footer" element={<Footer/>} />
           <Route path="/contact" element={<Contact/>} />
+          <Route path="/f&q" element={<FeQ/>} />
         </Routes>
       </Router>
     </div>
