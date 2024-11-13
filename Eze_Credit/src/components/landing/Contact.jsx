@@ -11,7 +11,7 @@ export function Contact() {
     <span class="font-semibold">Contact Us!</span>
   </div>
 </div>
-    <div className="flex justify-center mt-10 px-4 py-6 bg-blue-700 rounded-2xl border-8 border-blue-800 w-[800px] h-[550px] mx-auto mb-1 ">
+    <div className="flex justify-center mt-10 px-4 py-6 bg-blue-700 rounded-2xl border-8 border-blue-800 w-[800px] h-[550px] mx-auto mb-[30px]">
       <div className="bg-blue-800 text-white w-full p-6 rounded-lg flex flex-col md:flex-row">
         {/* Left Section - Form */}
         <div className="flex-1 md:mr-8 mt-[-20px]">

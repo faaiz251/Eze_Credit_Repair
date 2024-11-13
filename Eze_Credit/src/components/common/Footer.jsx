@@ -10,7 +10,7 @@ export function Footer() {
                     <img 
                         src={credit0}
                         alt="Eze Credit Repair Logo" 
-                        className="h-[60px] ml-[20px] "
+                        className="h-[60px] ml-[70px] "
                     />
                 </div>
 

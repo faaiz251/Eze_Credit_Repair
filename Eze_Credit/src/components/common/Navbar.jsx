@@ -15,9 +15,9 @@ export  function Navbar() {
         </div>
         <div className="flex justify-end gap-1">
 
-          <a href="/signin" className="hover:underline">LOGIN</a>
+          <a href="/" className="hover:underline">LOGIN</a>
           <span>|</span>
-          <a href="/signup" className="hover:underline">REGISTER</a>
+          <a href="/" className="hover:underline">REGISTER</a>
           {/* <Link  */}
           {/* // to="/signin" 
           // className="hover:underline">LOGIN</Link>
