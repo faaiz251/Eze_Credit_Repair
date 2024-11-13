@@ -189,8 +189,40 @@ export function Footer() {
               credit for better rates, loans, and peace of mind.
             </p>
           </div>
+          <div className="ml-[30px] border-x border-solid p-3">
+            <h3 className="text-lg font-semibold">Short Links</h3>
+            <ul className="mt-2 space-y-1 text-sm">
+              <li>
+                <button className="hover:text-gray-300" onClick={() => window.location.href = '/'}>Home</button>
+              </li>
+              <li>
+                <button className="hover:text-gray-300" onClick={() => window.location.href = '/about'}>About Us</button>
+              </li>
+              <li>
+                <button className="hover:text-gray-300" onClick={() => window.location.href = '/services'}>Our Services</button>
+              </li>
+              <li>
+                <button className="hover:text-gray-300" onClick={() => window.location.href = '/pricing'}>Pricing Page</button>
+              </li>
+              <li>
+                <button className="hover:text-gray-300" onClick={() => window.location.href = '/work'}>How It Works</button>
+              </li>
+              <li>
+                <button className="hover:text-gray-300" onClick={() => window.location.href = '/learning-center'}>Learning Center</button>
+              </li>
+              <li>
+                <button className="hover:text-gray-300" onClick={() => window.location.href = '/terms-and-conditions'}>Terms and Conditions</button>
+              </li>
+              <li>
+                <button className="hover:text-gray-300" onClick={() => window.location.href = '/f&q'}>FAQ</button>
+              </li>
+              <li>
+                <button className="hover:text-gray-300" onClick={() => window.location.href = '/privacy-policy'}>Privacy Policy</button>
+              </li>
+            </ul>
+          </div>
 
-          {/* Quick Links */}
+          {/* Quick Links
           <div className="ml-[30px] border-x border-solid p-3">
             <h3 className="text-lg font-semibold">Short Links</h3>
             <ul className="mt-2 space-y-1 text-sm">
@@ -222,7 +254,7 @@ export function Footer() {
                 <a href="/privacy-policy" className="hover:text-gray-300" onClick={() => window.location.reload()}>Privacy Policy</a>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Subscribe and Social Media */}
           <div className="mt-[10px]">
