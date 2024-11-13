@@ -13,7 +13,7 @@ import credit4 from '../asset/Rectangle2.png';
 import hands from '../asset/hands.png';
 import mobile from '../asset/mobile.png';
 import wemen from '../asset/Rectangle 20.png';
-import rect3 from '../asset/Rect3.png';
+import rect3 from '../asset/REct3.png';
 import chingchong from '../asset/chingchong.png';
 export function Home() {
     return (
