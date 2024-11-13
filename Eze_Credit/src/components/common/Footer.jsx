@@ -136,9 +136,6 @@
 //   );
 // }
 
-
-
-
 import credit0 from "../asset/logo.png";
 
 export function Footer() {
